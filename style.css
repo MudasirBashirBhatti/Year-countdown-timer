@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1em;
+}
+.parent{
+    width: 70%;
+}
+.innerParent{
+display: flex;
+justify-content: space-between;
+}
+
+.number{
+    font-size: 4rem;
+    text-align: center;
+}
+.identify{
+    font-size: 1rem;
+}
