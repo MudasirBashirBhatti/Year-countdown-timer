@@ -1,4 +1,4 @@
-let newYears ='1 jan 2026';
+let newYears ='1/1/2026';
 
 const countDown=()=>{
     let newYearDate = new Date(newYears);
